@@ -1,0 +1,26 @@
+.seatingHeader{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seatingHeader .back_arrow span svg{
+    font-size: 2rem;
+    color: rgb(119, 116, 116);
+}
+
+.seatingHeader .header_text h2{
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(100, 98, 98);
+}
+
+@media (max-width:365px) {
+    .seatingHeader{
+        padding: 0.5rem;
+    }
+    .seatingHeader h2{
+        font-size: 1rem;
+    }
+}

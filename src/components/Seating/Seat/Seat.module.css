@@ -1,0 +1,95 @@
+.userDetail{
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.userDetail label{
+    padding-right: 14px;
+    font-size: 20px;
+    color: rgb(204, 44, 132);
+}
+
+.userNameInput{
+    width: 15rem;
+    height: 1.8rem;
+    outline: none;
+}
+
+.main_box{
+    display: flex;
+    justify-content: center;
+}
+
+.main table{
+    text-align: center;
+}
+
+.main table td{
+    padding: 2px 20px;
+}
+
+input {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+    border: 1px solid #34495e3a;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    transition-duration: 0.3s;
+    background-color: #d8e9e157;
+    cursor: pointer;
+}
+
+input:checked{
+    border-bottom-right-radius: 0px;
+    background-color: #0cce2c;
+    display: block;
+    left: 0.7rem;
+    top: 0.2rem;
+}
+
+.btn{
+    margin-top: 2.9rem;
+    text-align: center;
+}
+
+.btn p{
+    padding: 1.5rem 0rem 2.2rem 0rem;
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #fc621bd2;
+    color: #fff;
+    transition: all 0.8s ease-in-out;
+}
+
+.btn p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn p:hover{
+    background: #0cce2c;
+}
+
+@media (max-width: 365px) {
+    .userDetail{
+        margin: 1rem;
+    }
+    .userDetail label{
+        font-size: 0.8rem;
+    }
+    .userNameInput{
+        width: 10rem;
+    }
+    .main table td{
+        padding: 0.15rem 0.2rem;
+    }
+    .btn{
+        margin-top: 1rem ;
+    }
+    .btn p{
+        font-size: 1rem;
+    }
+}
